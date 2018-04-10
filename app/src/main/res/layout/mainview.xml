@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maincardview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:background="@color/tw__solid_white"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:cardCornerRadius="4sp"
+    tools:context=".MAINVIEW"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/mainviewimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        app:srcCompat="@drawable/church_in_sarande_182852"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/mainviewtitle"
+        android:layout_width="376dp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mainviewimage"
+        android:layout_marginTop="220sp"
+        android:text="TextView"
+        android:textColor="?android:attr/colorForegroundInverse"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+</LinearLayout>

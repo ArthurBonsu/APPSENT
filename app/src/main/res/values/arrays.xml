@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="another">
+        <item> MEMBERSHIP </item>
+        <item> "ALBUM_PHOTOGRAPHY</item>
+         <item> MINISTRIES</item>
+         <item>FUNDS_AND_FINANCE </item>
+          <item> LATEST_MESSAGE</item>
+          <item> VIEWS</item>
+      <item>  STAFF_PROFILE</item>
+       <item> VIEW_SITE </item>
+    </string-array>
+
+
+    <string-array name="mainlist">
+        <item> MEMBERSHIP</item>
+            <item>ALBUM_PHOTOGRAPHY</item>
+             <item>MINISTRIES</item>
+             <item>FUNDS_AND_FINANCE </item>
+             <item>LATEST_MESSAGE</item>
+             <item>VIEWS </item>
+             <item>STAFF_PROFILE </item>
+            <item> VIEW_SITE</item>
+    </string-array>
+
+    <string-array name="music_select">
+      <item> Jingle Bell</item>
+    <item> Amazing grace</item>
+    <item> Sleeper tune</item>
+    </string-array>
+
+    <string-array name="musicvalues">
+
+         <item>  1</item>
+        <item>  2</item>
+        <item>  3</item>
+
+    </string-array>
+
+     <string-array name="cityname">
+         <item> Moscow</item>
+         <item> Kiev </item>
+         <item>Delhi </item>
+         <item> Barcelona </item>
+         <item> Montecarlo</item>
+         <item> Valleyview </item>
+         <item> Medina</item>
+         <item> Mexico City</item>
+         <item> Abu Dhabi</item>
+         <item> Riyadh</item>
+         <item> Tokyo</item>
+         <item> Catania</item>
+         <item> Colorado City </item>
+         <item> Delta</item>
+         <item> Ottawa</item>
+         <item> Bologna</item>
+         <item> Stockholm</item>
+
+     </string-array>
+
+    <string-array name="cityenteryvalues">
+         <item> 1</item>
+         <item> 2</item>
+         <item> 3</item>
+         <item> 4</item>
+         <item> 5</item>
+         <item> 6</item>
+         <item> 7</item>
+         <item> 8</item>
+
+         <item> 9</item>
+        <item> 10</item>
+        <item> 11</item>
+        <item> 12</item>
+        <item> 13</item>
+        <item>14 </item>
+        <item> 15</item>
+        <item> 16</item>
+        <item> 17</item>
+
+</string-array>
+    <string-array name="cityid">
+
+        <item> 524901 </item>
+        <item>  703448 </item>
+        <item> 1273294 </item>
+        <item> 3128760</item>
+        <item> 3173008 </item>
+        <item>6173220 </item>
+        <item> 5126521 </item>
+        <item> 3530597  </item>
+        <item> 292968 </item>
+        <item> 108410</item>
+        <item> 1850147</item>
+        <item> 2525068 </item>
+        <item> 5417561 </item>
+        <item> 5937615 </item>
+        <item>  4905006 </item>
+        <item> 3181928 </item>
+        <item> 2673730 </item>
+         </string-array>
+
+<string-array name="cityidenteryvalues">
+    <item> 1 </item>
+    <item>2 </item>
+    <item> 3</item>
+    <item> 4</item>
+    <item> 5</item>
+    <item> 6</item>
+    <item> 7</item>
+    <item> 8</item>
+    <item> 9</item>
+    <item> 10</item>
+    <item> 11</item>
+    <item> 12</item>
+    <item> 13</item>
+    <item> 14</item>
+    <item> 15</item>
+    <item> 16</item>
+    <item> 17</item>
+
+</string-array>
+
+    <string-array name="drawerlist">
+
+        <item>Profile </item>
+        <item> Events </item>
+        <item> Groups </item>
+        <item> Latest Message</item>
+        <item>  Create Church</item>
+
+
+            </string-array>
+       <string-array name="drawerlist2">
+
+           <item> Funds And Finance </item>
+           <item>  Church Photography</item>
+           <item> Announcement </item>
+           <item> Trending</item>
+           <item> History</item>
+
+       </string-array>
+
+
+</resources>

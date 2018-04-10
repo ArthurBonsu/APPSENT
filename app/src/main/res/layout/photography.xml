@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tw__solid_white">
+
+
+    <ImageView
+        android:id="@+id/churchpicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5sp"
+        app:srcCompat="@drawable/church_silhouette_194202"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/churchpictitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/churchpicture"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/churchpicdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/churchpictitle"
+        android:layout_alignStart="@+id/churchpictitle"
+        android:layout_below="@+id/churchpictitle"
+        android:layout_marginTop="66dp"
+        android:text="TextView"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/churchpicusename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/churchpicdescription"
+        android:layout_alignStart="@+id/churchpicdescription"
+        android:layout_below="@+id/churchpicdescription"
+        android:layout_marginTop="31dp"
+        android:text="TextView"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="16sp"
+
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

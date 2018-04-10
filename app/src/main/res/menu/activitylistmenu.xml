@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/Profilers"
+            android:icon="@drawable/handsopen"
+            android:title="Profile"
+            > </item>
+
+        <item
+            android:id="@+id/Eventser"
+
+            android:title="Events"
+            > </item>
+        <item
+            android:id="@+id/Groups"
+
+            android:title="Groups"
+            > </item>
+        <item
+            android:id="@+id/Latest_messagers"
+
+            android:title="Latest_message"
+            > </item>
+        <item
+            android:id="@+id/Create_Church"
+
+            android:title="Create_Church"
+            > </item>
+        <item
+            android:id="@+id/Funds_and_finance"
+
+            android:title="Funds_and_finance"
+            > </item>
+    </group>
+
+    <item android:title="Church Views">
+
+    <menu>
+        <item
+            android:id="@+id/Church_Phototography"
+
+            android:title="Church Photography"> </item>
+
+
+        <item
+            android:id="@+id/Album_Photography"
+
+            android:title="Album Photography"> </item>
+
+
+        <item
+            android:id="@+id/Announcement"
+
+            android:title="Announcement"> </item>
+
+
+        <item
+            android:id="@+id/Trending"
+
+            android:title="Trending"> </item>
+
+        <item
+            android:id="@+id/History"
+
+            android:title="History"> </item>
+
+        <item
+            android:id="@+id/Messagee"
+
+            android:title="Message"> </item>
+
+        <item
+            android:id="@+id/Logout"
+
+            android:title="Logout"> </item>
+
+    </menu>
+      </item>
+</menu>

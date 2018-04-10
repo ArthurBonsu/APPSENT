@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/albumphotographybackground"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/getchurchalbumpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getchurchalbumtitle"
+        android:layout_alignStart="@+id/getchurchalbumtitle"
+        android:layout_alignTop="@+id/getchurchalbumtitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/camerabutton10"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/getchurchalbumtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getchurchalbumpic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="set the title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/getchurchdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/getchurchdescription"
+        android:layout_weight="0.21"
+        android:ems="10"
+        android:hint="Say something about this picture"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/getchurchpost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_dark"
+        android:text="SEND A PICTURE OF A CHURCH ACTIVITY" />
+
+
+</LinearLayout>

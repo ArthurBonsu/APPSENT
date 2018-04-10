@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/thisisitt">
+
+
+    <ImageView
+        android:id="@+id/churchchosenimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/church_silhouette_194202"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/churchchosenname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/churchchosenimage"
+        android:layout_marginTop="88dp"
+        android:text="TextView"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="16sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/churchchosenlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/churchchosenname"
+        android:layout_marginTop="111dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>

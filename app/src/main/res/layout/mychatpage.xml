@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tw__solid_white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/thisisgroupname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/message_text"
+        android:layout_marginStart="68dp"
+        android:text="START GROUP CONVERSATION"
+        android:textColor="@color/tw__composer_red"
+        android:textSize="18sp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mychatpagerecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+        android:layout_below="@+id/thisisgroupname"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        tools:ignore="RtlHardcoded">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="TYPE YOUR MESSAGE HERE"
+            android:textColor="@android:color/holo_green_dark" />
+
+        <ImageButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:clickable="true"
+
+
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/images2"
+            tools:ignore="RelativeOverlap"
+            tools:text="SEND" />
+    </android.support.design.widget.TextInputLayout>
+
+
+</RelativeLayout>

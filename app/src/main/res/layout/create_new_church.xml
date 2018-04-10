@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbackground"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/mChurchImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mChurchlistname"
+        android:layout_alignStart="@+id/mChurchlistname"
+        android:layout_alignTop="@+id/mChurchlistname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/camerabutton10"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/mChurchlistname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mChurchImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Churchnamegoeshere"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mChurchDateCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mChurchlistname"
+        android:ems="10"
+        android:hint="Church Date goes Here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mChurchDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mChurchDateCreated"
+        android:ems="10"
+        android:hint="Now describe the church"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mChurchLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Location" />
+
+    <Button
+        android:id="@+id/mChurchPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cast_expanded_controller_background_color"
+        android:text="BUILD CHURCH" />
+
+
+</LinearLayout>

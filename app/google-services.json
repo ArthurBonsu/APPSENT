@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "606493148540",
+    "firebase_url": "https://eglisa-official.firebaseio.com",
+    "project_id": "eglisa-official",
+    "storage_bucket": "eglisa-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606493148540:android:6c644be2faf70bbd",
+        "android_client_info": {
+          "package_name": "com.gmail.peeman34.eglisaofficial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606493148540-58mijq5ephvm8b150690ae23su4mqlu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.peeman34.eglisaofficial",
+            "certificate_hash": "4a76d8784b6e42b9fccd1290f04bb4f233f11f9e"
+          }
+        },
+        {
+          "client_id": "606493148540-4cpdqm9dvdmsqgv6r4fhcmup8dd1htms.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "606493148540-tull52udc5rg701atd6tig540epqjui9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIt9WlueK2_jJuC8XOLQUBqqNuI_MwFxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

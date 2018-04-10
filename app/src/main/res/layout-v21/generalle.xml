@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aboutbackground">
+
+
+    <ImageView
+        android:id="@+id/generalpicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5sp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/church_silhouette_194202"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/generactivityname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/generalpicture"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textColor="@color/tw__light_gray"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

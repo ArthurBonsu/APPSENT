@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbackground"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/latestmessageimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/latestmessagetitle"
+        android:layout_alignStart="@+id/latestmessagetitle"
+        android:layout_alignTop="@+id/latestmessagetitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/camerabutton6"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/latestmessagetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latestmessageimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="the message title goes here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/latestmessagedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/latestmessagetitle"
+        android:ems="10"
+        android:hint="the message date goes here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/latestmessagedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/latestmessagedate"
+        android:ems="10"
+        android:hint="Now the description of the message"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/preachername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/latestmessagedescription"
+        android:ems="10"
+        android:hint="The name of the preacher"
+        android:inputType="textPersonName" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/mlatestaudio"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:background="#00ffffff"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/handsup"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/mlatestaudio"
+            android:layout_toRightOf="@+id/mlatestaudio"
+            android:text="Press button to pick a message" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/latestmessagepost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_orange_dark"
+        android:text="POST MESSAGE" />
+
+
+</LinearLayout>

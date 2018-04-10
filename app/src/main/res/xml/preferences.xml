@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+
+          <PreferenceCategory
+              android:title="@string/pref_location_title"
+              android:key="@string/pref_location"
+              >
+
+              <ListPreference
+                  android:title="@string/pref_location_edit_title"
+                  android:key="@string/pref_location_edit_key"
+                  android:defaultValue="@string/locationdefaultvalue"
+                  android:inputType="text"
+                  android:singleLine="true"
+                  android:entries="@array/cityname"
+
+
+                  android:entryValues="@array/cityenteryvalues"
+                  >
+
+
+              </ListPreference>
+
+              <ListPreference
+                  android:title="postal code"
+                  android:key="@string/postal_code"
+
+                  android:inputType="text"
+                  android:singleLine="true"
+                  android:entries="@array/cityid"
+
+
+                  android:entryValues="@array/cityidenteryvalues"
+                  >
+
+
+              </ListPreference>
+
+
+
+          </PreferenceCategory>
+
+               <PreferenceCategory
+                   android:title="Set splash screen"
+                   android:key="splash_screen_set"
+                   >
+
+                   <ListPreference
+
+                       android:key="splashmusicpreference"
+                       android:title="select a tune"
+                       android:dialogTitle="Splash screen music select"
+                       android:summary="This is a list of splash song to choose from"
+                        android:entries="@array/music_select"
+                        android:entryValues="@array/musicvalues" />
+
+
+
+               </PreferenceCategory>
+
+              <PreferenceCategory
+                  android:title="@string/pref_storage_title"
+                  android:key="@string/pref_storage_key">
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Data Synchoronisation"
+        android:key="pref_data_synchoronization">
+
+
+
+        <CheckBoxPreference
+            android:key="@string/pref_sync_key"
+            android:title="@string/SyncData_title"
+            android:summary="@string/summary_key"
+            android:defaultValue="@string/defaultValue"
+            />
+
+        <ListPreference
+
+            android:key="@string/sync_pref_pref_syncConnectionType"
+            android:title="@string/sync_list_pref_title"
+            android:dialogTitle="@string/sync_list_pref_dialogTitle"
+
+
+            android:defaultValue="@string/sync_list_preference_defaultvalue" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

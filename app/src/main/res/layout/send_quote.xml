@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/glowing_church_candles_187108"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/sendquoteimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendquotetitle"
+        android:layout_alignStart="@+id/sendquotetitle"
+        android:layout_alignTop="@+id/sendquotetitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        android:contentDescription=""
+        app:srcCompat="@drawable/camerabutton10"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <EditText
+        android:id="@+id/sendquotetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="@string/the_quote_title_goes_here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sendquotedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/the_quote_date_goes_here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sendquotedescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/sendquotedate"
+        android:ems="10"
+        android:hint="@string/now_write_your_amazing_quote"
+        android:inputType="textPersonName"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/sendquotepost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/colorFocusedHighlight"
+        android:text="@string/post_quote"
+        tools:ignore="ObsoleteLayoutParam" />
+
+
+</LinearLayout>

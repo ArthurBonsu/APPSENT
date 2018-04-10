@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/creategroupbackground"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/mGroupImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mGroupname"
+        android:layout_alignStart="@+id/mGroupname"
+        android:layout_alignTop="@+id/mGroupname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/camerabutton1"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/mGroupname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mGroupImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Groupnamegoeshere"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mGroupDateCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mGroupname"
+        android:ems="10"
+        android:hint="Group Date goes Here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mGroupDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mChurchDateCreated"
+        android:ems="10"
+        android:hint="Now describe the group"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/mGroupPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/errorColor"
+        android:text="CREATE YOUR GROUP" />
+
+
+</LinearLayout>

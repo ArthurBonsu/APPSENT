@@ -1,0 +1,395 @@
+<resources>
+    <string name="app_name">EGLISA OFFICIAL</string>
+
+    <string name="EGLISIA_WELCOME"> WELCOME TO EGLISIA</string>
+    <string name="action_settings">Settings</string>
+    <string name= "action_about">  About </string>
+    <string name = "about_text"> ABOUT DEVELOPERS </string>
+    <string name="about_story"> The EGLISA developed in January 2016.
+             By Bonsy Adjei-Arthur in the University of Ghana
+               MultiUsable App</string>
+    <string name="member">   BECOME A MEMBER</string>
+    <string name="ministryjoining"> which ministry would you like to join ?</string>
+    <string name="title_activity_map__view">Map</string>
+          <string name="select_church"> Select church </string>
+       <string name= "Country">  Select Country  </string>
+    <string name="Profilename">Peeman Arthur</string>
+    <string name="dateposted">date posted</string>
+    <string-array name="Churches">
+     <item>Ligthhouse Chapel International </item>
+     <item>  KICC </item>
+     <item>  Winners Chapel </item>
+     <item>   Church of Pentecost </item>
+     <item>    Anglican Church </item>
+     <item>  Roman Catholic </item>
+     <item>  Methodist Church </item>
+     <item>    Presbyterian Church</item>
+     <item>   Assemblies of God</item>
+     <item>     Action Chapel International</item>
+     <item>     Baptist Church </item>
+     <item>  Envangelical Presbyterian Church</item>
+     <item>  Church of Christ</item>
+     <item>    Apostolic Church of Ghana</item>
+
+ </string-array>
+    <string-array name="Countries">
+        <item> Afghanistan
+         </item>
+        <item> Argentina</item>
+        <item> Angola </item>
+        <item> Bahamas</item>
+        <item> Belgium</item>
+        <item> Bahrain</item>
+        <item> Bolivia</item>
+        <item> Brazil</item>
+        <item> Cuba </item>
+        <item> Ivory Coast</item>
+        <item> Canada </item>
+        <item> Denmark </item>
+        <item> England </item>
+         <item> Ethiopia </item>
+        <item> Eritrea</item>
+        <item> France </item>
+        <item> Germany </item>
+        <item> Ghana </item>
+        <item> Guinea</item>
+        <item> Guinea-Bissau</item>
+        <item> India </item>
+        <item> Indonesia </item>
+        <item> Italy</item>
+        <item> Jamaica</item>
+        <item> Japan</item>
+         <item> Kazakhstan</item>
+        <item> Kenya</item>
+        <item> Libya </item>
+       <item> Lesotho</item>
+        <item> Liberia </item>
+        <item> Malta</item>
+        <item> Mauritania </item>
+         <item> Madagascar </item>
+        <item> Norway</item>
+        <item> Nigeria </item>
+        <item> North- Koria</item>
+        <item> New Zealand </item>
+        <item> Namibia </item>
+        <item> Oman </item>
+        <item> Pakistan </item>
+        <item> Porland </item>
+        <item> Portugal </item>
+        <item> Peru</item>
+         <item> Quatar</item>
+        <item> Russia</item>
+        <item> Romania </item>
+        <item> Rwanda </item>
+        <item> Spain</item>
+        <item> Slovakia </item>
+        <item> Sudan </item>
+        <item> Sao Tome Principe</item>
+        <item> South- Afica</item>
+        <item> Somalia </item>
+        <item> Switzerland </item>
+        <item> Tanzania</item>
+        <item> Tuvau</item>
+        <item> Tonga</item>
+        <item> Togo</item>
+        <item> Tunisia </item>
+        <item> Trinidad and Tobago</item>
+        <item> Turkey</item>
+        <item> Uganda</item>
+        <item> Uruguay </item>
+        <item> United States Of America </item>
+          <item> Ukraine</item>
+         <item> Venezuela</item>
+        <item> Vanuatu</item>
+               <item>Zambia </item>
+        <item> Zimbabwe </item>
+      </string-array>
+    <string-array name="ministry1">
+        <item> Visitation </item>
+    <item>   Ushering </item>
+    <item>  Music </item>
+
+    </string-array>
+    <string name="action_set"> Settings</string>
+    <string name="back">BACK</string>
+    <string name="hi_music_lover_its_so_much_exciting_knowing_you_are_all_well_and_excited_today_well_just_to_know_the_whats_going_on_in_the_music_department_read_here">Hi! Music lover,its so much exciting knowing you are all well and excited today, well just to know the whats going on in the music department READ HERE</string>
+    <string name="info_pane">INFO PANE</string>
+    <string name="music_department">MUSIC DEPARTMENT</string>
+    <string name="rehearsal_room">REHEARSAL ROOM</string>
+    <string name="see_songs_for_the_week">SEE SONGS FOR THE WEEK</string>
+    <string name="view_membership">VIEW MEMBERSHIP</string>
+    <string name="chats">CHATS</string>
+    <string name="fellowship_room">FELLOWSHIP ROOM</string>
+    <string name="profile">PROFILE</string>
+    <string name="subject">SUBJECT</string>
+    <string name="trending">TRENDING</string>
+    <string name="back1">BACK</string>
+    <string name="find_your_church">Find Your Church</string>
+    <string name="location">Location</string>
+    <string name="next">NEXT</string>
+    <string name="name_of_church">Name of Church</string>
+    <string name="suscribe">SUSCRIBE</string>
+    <string name="accountnumber">Accountnumber</string>
+    <string name="bank_name">BANK NAME</string>
+    <string name="name">Name</string>
+    <string name="send_funds">SEND FUNDS</string>
+    <string name="announcement">Announcement</string>
+    <string name="quote_of_the_week">QUOTE OF THE WEEK</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="sermon">SERMON</string>
+    <string name="set_up_profile_picture">SET UP PROFILE PICTURE</string>
+    <string name="the_lord_shall_fight_for_you_and_ye_shall_hold_your_peace_exodus_14_14">The Lord shall fight for you and ye shall hold your peace Exodus 14:14</string>
+    <string name="view_album">View Album</string>
+    <string name="play">play</string>
+    <string name="selfprofile">selfprofile</string>
+    <string name="history_of_oduom_cop_kumasi">HISTORY OF ODUOM COP- KUMASI</string>
+    <string name="so">so</string>
+    <string name="bawa_ndum">Bawa Ndum</string>
+    <string name="first_leader">FIRST LEADER</string>
+    <string name="indiana_jones_kwakye">Indiana Jones Kwakye</string>
+    <string name="leaders_of_the_week">LEADERS OF THE WEEK</string>
+    <string name="second_leader">SECOND LEADER</string>
+    <string name="cancel">CANCEL</string>
+    <string name="email">Email</string>
+    <string name="login">LOGIN</string>
+    <string name="password">PASSWORD</string>
+    <string name="password2">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_in_here">SIGN IN HERE</string>
+    <string name="fill_credentials">fill credentials</string>
+    <string name="send">Send</string>
+    <string name="login1">login</string>
+    <string name="eglisa_centrale">EGLISA CENTRALE</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+    <string name="get_info">GET INFO</string>
+    <string name="login3">LOGIN</string>
+    <string name="name2">Name</string>
+    <string name="view">VIEW</string>
+    <string name="email2">email</string>
+    <string name="music">music</string>
+    <string name="password3">password</string>
+    <string name="tel_no">tel no.</string>
+    <string name="ushering">ushering</string>
+    <string name="visitation">visitation</string>
+    <string name="department">DEPARTMENT</string>
+    <string name="email3">EMAIL</string>
+    <string name="names">NAMES</string>
+    <string name="refresh">Refresh</string>
+    <string name="tel">TEL</string>
+    <string name="back2">BACK</string>
+    <string name="hi_music_lover_its_so_much_exciting_knowing_you_are_all_well_and_excited_today_well_just_to_know_the_whats_going_on_in_the_music_department_read_here1">Hi! Music lover,its so much exciting knowing you are all well and excited today, well just to know the whats going on in the music department READ HERE</string>
+    <string name="info_pane2">INFO PANE</string>
+    <string name="music_department2">MUSIC DEPARTMENT</string>
+    <string name="rehearsal_room1">REHEARSAL ROOM</string>
+    <string name="see_songs_for_the_week2">SEE SONGS FOR THE WEEK</string>
+    <string name="view_membership2">VIEW MEMBERSHIP</string>
+    <string name="names_music_division">NAMES- music division</string>
+    <string name="refresh2">Refresh</string>
+    <string name="music_members">MUSIC MEMBERS</string>
+    <string name="refresh3">Refresh</string>
+    <string name="back4">BACK</string>
+    <string name="song_pane">SONG PANE</string>
+    <string name="set_as_wallpaper">SET AS WALLPAPER</string>
+    <string name="take_a_picture">Take a Picture</string>
+    <string name="upload">Upload</string>
+    <string name="all_my_groups">All my groups</string>
+    <string name="send_us_your_prayer_request">SEND US YOUR PRAYER REQUEST</string>
+    <string name="write_here">Write Here</string>
+    <string name="name3">name</string>
+    <string name="send_request">send request</string>
+    <string name="firstname">FIRSTNAME</string>
+    <string name="funding">FUNDING</string>
+    <string name="other">OTHER</string>
+    <string name="surname">SURNAME</string>
+    <string name="surname1">SURNAME</string>
+    <string name="surname11">surname</string>
+    <string name="comment">COMMENT</string>
+    <string name="it_is_not_tne_same_thing_again_and_again">It is not tne same thing again and again</string>
+    <string name="topic_for_discussion">TOPIC FOR DISCUSSION</string>
+    <string name="agree">agree</string>
+    <string name="reply">reply</string>
+    <string name="announcement4">Announcement</string>
+    <string name="quote_of_the_week2">QUOTE OF THE WEEK</string>
+    <string name="send_message2">SEND MESSAGE</string>
+    <string name="sermon2">SERMON</string>
+    <string name="set_up_profile_picture2">SET UP PROFILE PICTURE</string>
+    <string name="the_lord_shall_fight_for_you_and_ye_shall_hold_your_peace_exodus_14_142">The Lord shall fight for you and ye shall hold your peace Exodus 14:14</string>
+    <string name="view_album2">View Album</string>
+    <string name="play2">play</string>
+    <string name="selfprofile2">selfprofile</string>
+    <string name="new_texte">New Texte</string>
+    <string name="team_listings">Team listings</string>
+    <string name="about_developers">About Developers</string>
+    <string name="action_page">ACTION PAGE</string>
+    <string name="action_roles">ACTION ROLES</string>
+    <string name="announcement22">ANNOUNCEMENT</string>
+    <string name="hello_friends">Hello friends</string>
+    <string name="topic_the_role_of_children_in_today_s_world">TOPIC: THE ROLE OF CHILDREN IN TODAY\'S WORLD</string>
+    <string name="church_ministries">CHURCH MINISTRIES</string>
+    <string name="date_of_meeting" />
+    <string name="the_topic_the_role_of_meeting">THE TOPIC: THE ROLE OF MEETING</string>
+    <string name="back6">BACK</string>
+    <string name="children_ministry">CHILDREN MINISTRY</string>
+    <string name="date_of_meeting_tuesday">DATE OF MEETING: TUESDAY</string>
+    <string name="date_of_meeting_tuesday2">DATE OF MEETING: TUESDAY</string>
+    <string name="date">DATE</string>
+    <string name="men_ministry">MEN MINISTRY</string>
+    <string name="place">PLACE</string>
+    <string name="place2">PLACE:</string>
+    <string name="women_ministry">WOMEN MINISTRY</string>
+    <string name="youth_ministry">YOUTH MINISTRY</string>
+    <string name="find_your_church2">Find Your Church</string>
+    <string name="back7">BACK</string>
+    <string name="location2">Location</string>
+    <string name="next2">NEXT</string>
+    <string name="name_of_church2">Name of Church</string>
+    <string name="suscribe3">SUSCRIBE</string>
+    <string name="cancel2">CANCEL</string>
+    <string name="post">POST</string>
+    <string name="team_name">TEAM NAME</string>
+    <string name="create_report">create report</string>
+    <string name="write_report">write report</string>
+    <string name="create_visitation_teams">Create Visitation Teams</string>
+    <string name="give_a_team_id">Give a team id</string>
+    <string name="team_name2">Team name</string>
+    <string name="create">create</string>
+    <string name="eglisa_centrale2">EGLISA CENTRALE</string>
+    <string name="infopane">INFOPANE</string>
+    <string name="team_name4">TEAM NAME</string>
+    <string name="general">GENERAL</string>
+    <string name="music_division">MUSIC DIVISION</string>
+    <string name="ushering44">USHERING</string>
+    <string name="view_church_ministries">VIEW CHURCH MINISTRIES</string>
+    <string name="visitation22">VISITATION</string>
+    <string name="welcome">WELCOME</string>
+    <string name="refreshingteamlist">Button</string>
+    <string name="membershippage">TextView</string>
+    <string name="namer">TextView</string>
+    <string name="namertext">Name</string>
+    <string name="textview">TextView</string>
+    <string name="namemember">name</string>
+    <string name="last_name">last name</string>
+    <string name="othername">TextView</string>
+    <string name="emaill">Email</string>
+    <string name="passworder">Password</string>
+    <string name="others">other</string>
+    <string name="your_email">your email</string>
+    <string name="password44">password</string>
+    <string name="tel_num">Tel num</string>
+    <string name="your_phone_number">your phone number</string>
+    <string name="congregation">CONGREGATION</string>
+    <string name="congregationnames">Names</string>
+    <string name="congregationnumbers">Numbers</string>
+    <string name="refreshcongregation">Refresh</string>
+    <string name="Username1">TextView</string>
+    <string name="Usernamepassword">TextView</string>
+    <string name="select_ministry">Select ministry</string>
+    <string name="create_group">Create group</string>
+    <string name="create_new_ministry">Create new ministry</string>
+    <string name="Groupname">TextView</string>
+    <string name="short_description">Short Description</string>
+    <string name="the_name_of_group">The name of group</string>
+    <string name="enter_reply">Enter reply</string>
+    <string name="reply2">Reply:</string>
+    <string name="pictures">PICTURES</string>
+    <string name="numbers">TextView</string>
+    <string name="describe_your_group">Describe your group</string>
+    <string name="music_memberss">music members</string>
+    <string name="about_your_church">About your church</string>
+    <string name="church_name">CHURCH NAME</string>
+    <string name="church_name2">CHURCH NAME</string>
+    <string name="about_your_church2">About your church</string>
+    <string name="enter_your_church_history_here">Enter your church history here</string>
+    <string name="enter_church_name">Enter church name</string>
+    <string name="location0">location</string>
+    <string name="this_is_the_entery_into_the_church_units">This is the Entery into the Church Units</string>
+    <string name="this_is_the_entery_into_the_church_unitsii">This is the Entery into the Church Units</string>
+    <string name="let_us_know_your_views">LET US KNOW YOUR VIEWS</string>
+    <string name="post2">POST</string>
+    <string name="send_comment">SEND COMMENT</string>
+    <string name="forward">Forward</string>
+    <string name="clear_hist">Clear Hist</string>
+    <string name="go">GO</string>
+    <string name="go_back">Go Back</string>
+    <string name="refresh56">Refresh</string>
+    <string name="action_roles2">ACTION ROLES</string>
+    <string name="back33">BACK</string>
+    <string name="hi_music_lover_its_so_much_exciting_knowing_you_are_all_well_and_excited_today_well_just_to_know_the_whats_going_on_in_the_music_department_read_here2">Hi! Music lover,its so much exciting knowing you are all well and excited today, well just to know the whats going on in the music department READ HERE</string>
+    <string name="leaders_of_the_week2">LEADERS OF THE WEEK</string>
+    <string name="strategies_and_info_pane">STRATEGIES AND INFO PANE</string>
+    <string name="ushering_department">USHERING DEPARTMENT</string>
+    <string name="view_membership22">VIEW MEMBERSHIP</string>
+    <string name="ushering_members">USHERING MEMBERS</string>
+    <string name="back66">BACK</string>
+    <string name="good_day_everyone_its_been_a_great_a_week_and_i_suppose_you_had_one_too_however_the_souls_must_still_be_kept_well_so_for_our_weekly_plan_view_here">Good Day Everyone, its been a great a week and I suppose you had one too, however the souls must still be kept well,so for our weekly plan, VIEW HERE</string>
+    <string name="view_membership44">VIEW MEMBERSHIP</string>
+    <string name="visit_report">VISIT REPORT</string>
+    <string name="visitation_teams">VISITATION TEAMS</string>
+    <string name="weekly_visitation_plan">WEEKLY VISITATION PLAN</string>
+    <string name="visitation_plan_and_strategy">VISITATION PLAN AND STRATEGY</string>
+    <string name="visitation_members">VISITATION MEMBERS</string>
+    <string name="ushering_strategies">USHERING STRATEGIES</string>
+    <string name="enter_image_url">Enter image_url</string>
+    <string name="enter_the_song_url">Enter the song_url</string>
+    <string name="enter_the_title_of_song">Enter the title of song</string>
+    <string name="song_title">Song Title</string>
+    <string name="song_url">Song_url</string>
+    <string name="image_url">image_url</string>
+    <string name="chatroom">CHATROOM</string>
+    <string name="group_album">GROUP ALBUM</string>
+    <string name="members_online">MEMBERS ONLINE</string>
+    <string name="sign_up">Sign Up</string>
+     <string name="pref_sync_key"> pref_sync</string>
+    <string name="SyncData_title"> Sync Data </string>
+      <string name="summary_key"> You need to sync your data to ensure good performance</string>
+        <string name="defaultValue">true</string>
+    <string name="pref_location_title"> Location</string>
+    <string name="pref_location">pref_location</string>
+    <string name="pref_location_edit_title">pref_location_label </string>
+    <string name="pref_location_edit_key">pref_location_key </string>
+    <string name="locationdefaultvalue"> true </string>
+    <string name="pref_storage_title">Storage </string>
+    <string name="drawer_open"> Drawer Open</string>
+    <string name="drawer_close"> Drawer Close</string>
+    <string name="pref_storage_key"> pref_storage</string>
+    <string name="sync_list_preference_defaultvalue"> true </string>
+    <string name="sync_list_pref_dialogTitle"> Preference Sync Connection Type</string>
+    <string name="sync_list_pref_title">Preference Sync Connection Type</string>
+    <string name="sync_pref_pref_syncConnectionType"> pref_syncConnectionType </string>
+    <string name="enter_location">Enter location</string>
+    <string name="enter_city_code">Enter city code</string>
+    <string name="postal_code">postalcode_key </string>
+    <string name="weatherstate">Weatherstate</string>
+    <string name="cityname">cityname</string>
+    <string name="current_time_date">current_time_date</string>
+    <string name="day_of_the_weeek">day of the weeek</string>
+    <string name="high">high</string>
+    <string name="humidity">humidity</string>
+    <string name="low">low</string>
+    <string name="enter_for_us_a_founder_s_name">Enter for us a founder\'s name</string>
+    <string name="enter_the_church_name">Enter the church name</string>
+    <string name="just_a_short_description_of_your_church">Just a short description of your church</string>
+    <string name="create_new_church_back">back</string>
+    <string name="get_your_church_pic">get your church pic</string>
+    <string name="create_new_churchnext">next</string>
+    <string name="submit_text">submit_text</string>
+    <string name="send_announcement_post">POST</string>
+    <string name="sendannouncementback">back</string>
+    <string name="about_lighthouse_chapel">About LightHouse Chapel</string>
+    <string name="the_lighthouse_chapel_is_an_charismatic_denomination_in_ghana_founded_about_20_years_ago_it_is_believed_to_be_a_missionary_church_we_emphasize_on_the_bible_as_the_foundation_of_the_church_and_the_holy_spirit_the_crucificion_and_the_resurrection_of_jesus_christ_join_us_every_tuesday_and_sunday_at_pm_and_10_00am_respectively_at_the_quodesh_kaneshie_to_worship">The Lighthouse Chapel is an Charismatic denomination in Ghana. Founded about 20 years ago, it is believed to be a missionary church. We emphasize on the Bible as the foundation of the church and the Holy Spirit, the crucificion and the resurrection of Jesus Christ. Join us every Tuesday and Sunday at pm and 10:00am respectively at the Quodesh, Kaneshie to worship</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="now_write_your_amazing_quote">Now write your amazing quote</string>
+    <string name="post_quote">POST QUOTE</string>
+    <string name="the_quote_date_goes_here">the quote date goes here</string>
+    <string name="the_quote_title_goes_here">the quote title goes here</string>
+    <string name="now_write_announcement">Now write announcement</string>
+    <string name="post_announcement">POST ANNOUNCEMENT</string>
+    <string name="the_annoucement_date_goes_here">the annoucement date goes here</string>
+    <string name="the_event_title_goes_here">the event title goes here</string>
+    <string name="input">Input</string>
+    <string name="view_your_churches_chosen">view your churches chosen</string>
+    <string name="churches_around_the_world">CHURCHES AROUND THE WORLD</string>
+    <string name="touch_image_to_enter_church_hall">TOUCH IMAGE TO ENTER CHURCH HALL</string>
+</resources>

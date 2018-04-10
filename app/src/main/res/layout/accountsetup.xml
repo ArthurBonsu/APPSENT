@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilefinish"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/setupimageby"
+        android:layout_width="302dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/setupname"
+        android:layout_alignTop="@+id/setupname"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="17dp"
+        android:layout_weight="0.47"
+        android:contentDescription=""
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/personplaceholder"
+        tools:ignore="ContentDescription,InefficientWeight,ObsoleteLayoutParam,RtlHardcoded" />
+
+
+    <EditText
+        android:id="@+id/setupname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setupimageby"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter your display name"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+    <Button
+        android:id="@+id/setupbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/authui_colorPrimaryDark"
+        android:text="FINISH SETUP"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbackground"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageButton
+        android:id="@+id/getimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getpictitle"
+        android:layout_alignStart="@+id/getpictitle"
+        android:layout_alignTop="@+id/getpictitle"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="14dp"
+        android:background="#00ffffff"
+        app:srcCompat="@drawable/camerabutton1"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/getpictitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="set the title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/getpicdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/getpictitle"
+        android:layout_weight="0.21"
+        android:ems="10"
+        android:hint="Say something about this picture"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/getpicpostt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/tw__composer_red"
+        android:text="SEND THIS LOVELY PICTURE" />
+
+
+</LinearLayout>

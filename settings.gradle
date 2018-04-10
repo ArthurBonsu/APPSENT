@@ -1,0 +1,3 @@
+include ':app', ':fundapter', ':Sample', ':library'
+project(':Sample').projectDir = new File('FunDapter-master(2)/FunDapter-master/Sample')
+project(':library').projectDir = new File('FunDapter-master(2)/FunDapter-master/library')
